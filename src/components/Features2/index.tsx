@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Features of the AI-based EDD Solution"
-            paragraph="Below are the highlighted Key features."
+            title="Why AI is Required for EDD"
+            paragraph="Lets understand why AI ?"
             center
           />
 
