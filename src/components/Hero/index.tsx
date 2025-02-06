@@ -24,8 +24,9 @@ const Hero = () => {
                   <div
                     className="mb-1 rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                     onClick={() => {
-                      window.location.href =
-                        "mailto:nitin@onmeta.in?subject=Detex.tech enquiry&body=Interested in your product";
+                      document
+                        .getElementById("contact")
+                        ?.scrollIntoView({ behavior: "smooth" });
                     }}
                   >
                     Contact Us
